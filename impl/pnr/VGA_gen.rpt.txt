@@ -12,27 +12,27 @@
   <Part Number>: GW1NR-LV9QN88PC6/I5
   <Device>: GW1NR-9
   <Device Version>: C
-  <Created Time>:Mon Jun 15 11:21:56 2026
+  <Created Time>:Mon Jun 15 12:38:37 2026
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 0.04s, Elapsed time = 0h 0m 0.041s
-    Placement Phase 1: CPU time = 0h 0m 0.089s, Elapsed time = 0h 0m 0.088s
-    Placement Phase 2: CPU time = 0h 0m 0.025s, Elapsed time = 0h 0m 0.025s
-    Placement Phase 3: CPU time = 0h 0m 0.882s, Elapsed time = 0h 0m 0.883s
+    Placement Phase 0: CPU time = 0h 0m 0.02s, Elapsed time = 0h 0m 0.02s
+    Placement Phase 1: CPU time = 0h 0m 0.084s, Elapsed time = 0h 0m 0.084s
+    Placement Phase 2: CPU time = 0h 0m 0.013s, Elapsed time = 0h 0m 0.013s
+    Placement Phase 3: CPU time = 0h 0m 0.897s, Elapsed time = 0h 0m 0.897s
     Total Placement: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
  Running routing:
     Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Routing Phase 1: CPU time = 0h 0m 0.21s, Elapsed time = 0h 0m 0.209s
-    Routing Phase 2: CPU time = 0h 0m 0.253s, Elapsed time = 0h 0m 0.254s
+    Routing Phase 1: CPU time = 0h 0m 0.187s, Elapsed time = 0h 0m 0.186s
+    Routing Phase 2: CPU time = 0h 0m 0.191s, Elapsed time = 0h 0m 0.191s
     Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Total Routing: CPU time = 0h 0m 0.463s, Elapsed time = 0h 0m 0.463s
+    Total Routing: CPU time = 0h 0m 0.378s, Elapsed time = 0h 0m 0.377s
  Generate output files:
     CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s
 
- Total Time and Memory Usage: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s, Peak memory usage = 286MB
+ Total Time and Memory Usage: CPU time = 0h 0m 3s, Elapsed time = 0h 0m 3s, Peak memory usage = 1879MB
 
 
 3. Resource Usage Summary
@@ -40,22 +40,22 @@
   --------------------------------------------------------------------------------
   Resources                   | Usage                               | Utilization
   --------------------------------------------------------------------------------
-  Logic                       | 100/8640                            |  2%
-    --LUT,ALU,ROM16           | 100(100 LUT, 0 ALU, 0 ROM16)        | -
+  Logic                       | 128/8640                            |  2%
+    --LUT,ALU,ROM16           | 128(67 LUT, 61 ALU, 0 ROM16)        | -
     --SSRAM(RAM16)            | 0                                   | -
-  Register                    | 44/6693                             |  <1%
+  Register                    | 45/6693                             |  <1%
     --Logic Register as Latch | 0/6480                              |  0%
-    --Logic Register as FF    | 42/6480                             |  <1%
+    --Logic Register as FF    | 43/6480                             |  <1%
     --I/O Register as Latch   | 0/213                               |  0%
     --I/O Register as FF      | 2/213                               |  <1%
-  CLS                         | 63/4320                             |  2%
+  CLS                         | 69/4320                             |  2%
   I/O Port                    | 7/71                                |  10%
   I/O Buf                     | 7                                   | -
     --Input Buf               | 2                                   | -
     --Output Buf              | 5                                   | -
     --Inout Buf               | 0                                   | -
-  BSRAM                       | 24/26                               | 93%
-    --SDPB                    | 24
+  BSRAM                       | 15/26                               | 58%
+    --SDPB                    | 15
   ================================================================================
 
 
@@ -76,7 +76,7 @@
   ------------------------------------------
   Clock Resource| Usage         | Utilization 
   ------------------------------------------
-  PRIMARY       | 2/8           | 25%
+  PRIMARY       | 1/8           | 13%
   LW            | 0/8           | 0%
   GCLK_PIN      | 2/3           | 67%
   rPLL          | 1/2           | 50%
@@ -88,8 +88,7 @@
   -------------------------------------------
   Signal         | Global Clock   | Location
   -------------------------------------------
-  clk_50         | PRIMARY        |  TR TL BR BL
-  clk_25         | PRIMARY        |  BR BL
+  clk_25         | PRIMARY        |  TR TL BR BL
   sys_clk_d      | HCLK           | BANK4_BANK5_HCLK0
   ===========================================
 

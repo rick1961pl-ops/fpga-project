@@ -1,0 +1,17 @@
+[General]
+ipc_version=4
+file=gowin_sdpb
+module=Gowin_SDPB
+target_device=gw1nr9c-004
+type=ram_sdpb
+version=1.0
+
+[Config]
+BYTE_SIZE=0
+DEPTH_A=76800
+DEPTH_B=76800
+LANG=0
+READ=1
+RESET_MODE=true
+WIDTH_A=4
+WIDTH_B=4

@@ -9,6 +9,8 @@
         <File path="src/demo_shift_vsync.v" type="file.verilog" enable="0"/>
         <File path="src/framebuffer.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb.v" type="file.verilog" enable="1"/>
+        <File path="src/palette.v" type="file.verilog" enable="1"/>
         <File path="src/render.v" type="file.verilog" enable="1"/>
         <File path="src/top.v" type="file.verilog" enable="1"/>
         <File path="src/vga_timing.v" type="file.verilog" enable="1"/>

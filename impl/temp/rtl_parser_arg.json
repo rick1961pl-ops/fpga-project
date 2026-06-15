@@ -20,6 +20,14 @@
   {
    "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/render.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/gowin_sdpb/gowin_sdpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/palette.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

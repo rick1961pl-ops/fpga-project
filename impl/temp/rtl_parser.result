@@ -1,31 +1,31 @@
 [
  {
   "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-  "InstLine" : 4,
+  "InstLine" : 1,
   "InstName" : "top",
   "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-  "ModuleLine" : 4,
+  "ModuleLine" : 1,
   "ModuleName" : "top",
   "SubInsts" : [
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-    "InstLine" : 19,
-    "InstName" : "u_pll",
+    "InstLine" : 14,
+    "InstName" : "pll",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/gowin_rpll/gowin_rpll.v",
     "ModuleLine" : 10,
     "ModuleName" : "Gowin_rPLL"
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-    "InstLine" : 32,
-    "InstName" : "u_vga_timing",
+    "InstLine" : 25,
+    "InstName" : "vga",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/vga_timing.v",
-    "ModuleLine" : 2,
+    "ModuleLine" : 1,
     "ModuleName" : "vga_timing"
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-    "InstLine" : 82,
+    "InstLine" : 45,
     "InstName" : "fb",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/framebuffer.v",
     "ModuleLine" : 1,
@@ -40,5 +40,21 @@
   "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/render.v",
   "ModuleLine" : 1,
   "ModuleName" : "renderer"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/gowin_sdpb/gowin_sdpb.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_SDPB",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/gowin_sdpb/gowin_sdpb.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_SDPB"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/palette.v",
+  "InstLine" : 1,
+  "InstName" : "palette",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/palette.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "palette"
  }
 ]
