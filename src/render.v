@@ -1,5 +1,3 @@
-// wypełnia paletą 16 kolorow pamiec
-
 module renderer (
     input clk,
     input rst_n,
@@ -15,9 +13,9 @@ module renderer (
     wire [16:0] base_y;
     assign base_y = (y << 8) + (y << 6); // y * 320
 
-    // ================= PATTERN (4x4 BLOCKS) =================
-    wire [7:0] gx = x >> 2;   // 4-pixel grid
-    wire [7:0] gy = y >> 2;
+    // ================= 8-COLOR BANDS =================
+    // dzielimy ekran na pionowe pasy co 40 px
+    wire [2:0] color_index = x[8:6]; // 0..7 (8 pasów)
 
     always @(posedge clk) begin
         if (!rst_n) begin
@@ -31,13 +29,22 @@ module renderer (
             // address
             addr <= base_y + x;
 
-            // ================= COLOR (FULL 4-bit RANGE) =================
-            data <= {gx[1:0] ^ gy[1:0], gx[0], gy[0]};
+            // ================= 8 COLORS =================
+            case (color_index)
+                3'd0: data <= 4'b0000; // black
+                3'd1: data <= 4'b0001; // blue
+                3'd2: data <= 4'b0010; // green
+                3'd3: data <= 4'b0011; // cyan
+                3'd4: data <= 4'b0100; // red
+                3'd5: data <= 4'b0101; // magenta
+                3'd6: data <= 4'b0110; // yellow
+                3'd7: data <= 4'b0111; // white
+                default: data <= 4'b0000;
+            endcase
 
-            // write enable always safe (frame fill mode)
             we <= 1'b1;
 
-            // ================= X/Y SCAN =================
+            // ================= SCAN 320x240 =================
             if (x == 9'd319) begin
                 x <= 0;
 
