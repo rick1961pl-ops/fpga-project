@@ -1,0 +1,26 @@
+-series GW1NR
+-device GW1NR-9
+-device_version C
+-package QFN88P
+-part_number GW1NR-LV9QN88PC6/I5
+
+
+-mod_name Gowin_DPB
+-file_name gowin_dpb
+-path C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/gowin_dpb/
+-type RAM_DP
+-file_type vlg
+-bram_b true
+-dev_type GW1NR-9C
+-depth_0 131072
+-depth_1 131072
+-width_0 3
+-width_1 3
+-read_mode_0 pipeline
+-read_mode_1 pipeline
+-write_mode_0 normal
+-write_mode_1 normal
+-speed false
+-reset_mode sync
+-init_file Y:\framebuffer_512x256_byte.mem
+-init_match port_A

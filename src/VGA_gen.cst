@@ -1,0 +1,23 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW1NR-LV9QN88PC6/I5
+//Device: GW1NR-9
+//Device Version: C
+//Created Time: Sun 06 14 10:55:27 2026
+
+IO_LOC "rgb[2]" 41 exclusive;
+IO_PORT "rgb[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "rgb[1]" 35 exclusive;
+IO_PORT "rgb[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "rgb[0]" 40 exclusive;
+IO_PORT "rgb[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "vsync" 33 exclusive;
+IO_PORT "vsync" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "hsync" 34 exclusive;
+IO_PORT "hsync" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "rst_n" 4 exclusive;
+IO_PORT "rst_n" IO_TYPE=LVCMOS18 PULL_MODE=NONE BANK_VCCIO=1.8;
+IO_LOC "sys_clk" 52 exclusive;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
