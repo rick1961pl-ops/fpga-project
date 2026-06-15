@@ -1,3 +1,4 @@
+
 // kod działa z framebuffer który jest dynamicznie zmieniany
 // versja podstawowa 1.0
 module top (
@@ -48,6 +49,7 @@ module top (
         (x >= 11'd64) && (x < 11'd576) &&
         (y >= 11'd112) && (y < 11'd368);
 
+/*
     wire [10:0] lx = x - 11'd64;
     wire [10:0] ly = y - 11'd112;
 
@@ -55,7 +57,14 @@ module top (
         (video_on && in_window)
         ? (lx + (ly << 9))
         : 17'd0;
-
+*/
+    // to jest podobno lepsza wersja tego co jest wyzej dziala
+    wire [8:0] lx = x - 11'd64;
+    wire [7:0] ly = y - 11'd112;
+    wire [16:0] fb_addr =
+    (video_on && in_window)
+    ? {ly, lx}
+    : 17'd0;
     // =========================================================
     // PIPELINE (ONLY ADDRESS FIX - REQUIRED FOR BRAM)
     // =========================================================

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Register="17" Alu="8" Lut="33" T_Register="44(17)" T_Alu="8(8)" T_Lut="102(33)" T_Bsram="24(0)">
+<Module name="top" Register="17" Lut="32" T_Register="44(17)" T_Lut="101(32)" T_Bsram="24(0)">
  <SubModule name="u_pll"/>
  <SubModule name="u_vga_timing" Register="24" Lut="43" T_Register="24(24)" T_Lut="43(43)"/>
  <SubModule name="fb" Register="3" Lut="26" Bsram="24" T_Register="3(3)" T_Lut="26(26)" T_Bsram="24(24)"/>

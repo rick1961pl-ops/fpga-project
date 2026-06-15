@@ -1,12 +1,15 @@
 GowinSynthesis start
 Running parser ...
-Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\gowin_rpll\gowin_rpll.v'
-Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\vga_timing.v'
-Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\framebuffer.v'
-Compiling module 'top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":2)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\vga_timing.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\render.v'
+Compiling module 'top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":4)
 Compiling module 'Gowin_rPLL'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\gowin_rpll\gowin_rpll.v":10)
-Compiling module 'vga_timing'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\vga_timing.v":1)
+Compiling module 'vga_timing'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\vga_timing.v":2)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 9("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":62)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 8("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":63)
 Compiling module 'framebuffer'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\framebuffer.v":1)
 Extracting RAM for identifier 'mem'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\framebuffer.v":20)
 NOTE  (EX0101) : Current top module is "top"

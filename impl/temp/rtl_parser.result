@@ -1,15 +1,15 @@
 [
  {
   "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-  "InstLine" : 3,
+  "InstLine" : 4,
   "InstName" : "top",
   "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-  "ModuleLine" : 3,
+  "ModuleLine" : 4,
   "ModuleName" : "top",
   "SubInsts" : [
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-    "InstLine" : 18,
+    "InstLine" : 19,
     "InstName" : "u_pll",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/gowin_rpll/gowin_rpll.v",
     "ModuleLine" : 10,
@@ -17,20 +17,28 @@
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-    "InstLine" : 31,
+    "InstLine" : 32,
     "InstName" : "u_vga_timing",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/vga_timing.v",
-    "ModuleLine" : 1,
+    "ModuleLine" : 2,
     "ModuleName" : "vga_timing"
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/top.v",
-    "InstLine" : 73,
+    "InstLine" : 82,
     "InstName" : "fb",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/framebuffer.v",
     "ModuleLine" : 1,
     "ModuleName" : "framebuffer"
    }
   ]
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/render.v",
+  "InstLine" : 1,
+  "InstName" : "renderer",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/VGA_gen/src/render.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "renderer"
  }
 ]

@@ -1,3 +1,4 @@
+
 module vga_timing (
     input clk,                              // zegar systemowy
     input en,                               // tick 25 MHz (pixel enable)
