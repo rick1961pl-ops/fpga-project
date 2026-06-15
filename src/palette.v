@@ -1,3 +1,5 @@
+// wypełnienie framebuffer
+
 module palette (
     input  [3:0] idx,
     output reg [2:0] r,

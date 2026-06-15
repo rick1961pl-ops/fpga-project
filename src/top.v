@@ -1,3 +1,4 @@
+
 module top (
     input sys_clk,
     input rst_n,
@@ -88,5 +89,6 @@ module top (
 
     // ================= OUTPUT =================
     assign rgb = video_on ? fb_rd_data[2:0] : 3'b000;
+
 
 endmodule

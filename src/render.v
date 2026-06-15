@@ -1,3 +1,5 @@
+// wypełnia paletą 16 kolorow pamiec
+
 module renderer (
     input clk,
     input rst_n,

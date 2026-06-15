@@ -1,3 +1,4 @@
+
 module vga_timing (
     input clk,
     input en,

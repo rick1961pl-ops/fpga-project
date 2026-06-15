@@ -7,13 +7,11 @@ Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Document
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\render.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\gowin_sdpb\gowin_sdpb.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\palette.v'
-Compiling module 'top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":1)
+Compiling module 'top'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":2)
 Compiling module 'Gowin_rPLL'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\gowin_rpll\gowin_rpll.v":10)
-Compiling module 'vga_timing'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\vga_timing.v":1)
-Compiling module 'framebuffer'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\framebuffer.v":1)
-Extracting RAM for identifier 'mem'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\framebuffer.v":12)
-WARN  (EX3670) : Actual bit length 4 differs from formal bit length 8 for port 'wr_data'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":50)
-WARN  (EX3670) : Actual bit length 4 differs from formal bit length 8 for port 'rd_data'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\top.v":53)
+Compiling module 'vga_timing'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\vga_timing.v":2)
+Compiling module 'framebuffer'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\framebuffer.v":3)
+Extracting RAM for identifier 'mem'("C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\Documents\VGA_gen\src\framebuffer.v":14)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
