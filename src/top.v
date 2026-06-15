@@ -1,4 +1,5 @@
 // kod działa z framebuffer który jest dynamicznie zmieniany
+// versja podstawowa
 module top (
     input sys_clk,
     input rst_n,
